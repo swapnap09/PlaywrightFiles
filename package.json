@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:reg": "playwright test --grep @reg",
+    "test:DemoWebLogin": "playwright test --grep @DemoWebLogin"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3"
+  }
+}
