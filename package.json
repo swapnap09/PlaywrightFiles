@@ -6,13 +6,16 @@
   "scripts": {
     "test": "playwright test",
     "test:reg": "playwright test --grep @reg",
-    "test:DemoWebLogin": "playwright test --grep @DemoWebLogin"
+    "test:DemoWebLogin": "playwright test --grep @DemoWebLogin",
+    "test:2Darray": "playwright test --grep @2Darray",
+    "test:AddToCart": "playwright test --grep @AddToCart"
   },
   "keywords": [],
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.64.1",
-    "@types/node": "^26.6.5"
+    "@types/node": "^26.6.5",
+    "allure-playwright": "^3.15.0"
   },
   "dependencies": {
     "csv-parse": "^7.0.3"
